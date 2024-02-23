@@ -5,10 +5,9 @@ import os
 import time
 print(os.getcwd())
 # time.sleep(300)
-from functions.src.goodbye import bye
-
+from functions.src import goodbye
 
 
 def main(context):
     print("hello world")
-    bye()
+    goodbye.bye()
