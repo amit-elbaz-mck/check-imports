@@ -4,6 +4,7 @@ import os
 
 import time
 print(os.getcwd())
+print(sys.path)
 # time.sleep(300)
 from functions.src import goodbye
 
